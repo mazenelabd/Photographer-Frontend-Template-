@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Home</title>
+
+  <!-- ICON AND TOUCH ICON -->
+  <link rel="icon" type="image/ico" href="images/logo/title.svg" />
+  <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png"/>
+
+  <!-- FONTS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eagle+Lake&display=swap">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" id="bootstrap-css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark gray-nav">
+
+      <!-- BRAND-LOGO -->
+      <a class="navbar-brand m-0 mb-n4 p-0" href="home.html"><span class="company-logo">a</span></a>
+
+      <!-- TOGGLE-BUTTON -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAVBAR-CENTERED-MENU -->
+      <div class="collapse navbar-collapse justify-content-center FullWidth" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Works</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="photos.html">Photos</a>
+              <a class="dropdown-item" href="albums.html">Albums</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Blog</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="blog.html">The Blog</a>
+              <a class="dropdown-item" href="blog-with-sidebar.html">Blog With Sidebar</a>
+              <a class="dropdown-item" href="article1.html">Post Page</a>
+              <a class="dropdown-item" href="category-travelling.html">Category Page</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- NAVBAR-RIGHT-MENU -->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  <!-- CAROUSEL -->
+  <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-pause="false">
+
+    <!-- CAROUSEL INDICATORS -->
+    <ol class="carousel-indicators">
+      <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mainCarousel" data-slide-to="1"></li>
+      <li data-target="#mainCarousel" data-slide-to="2"></li>
+      <li data-target="#mainCarousel" data-slide-to="3"></li>
+      <li data-target="#mainCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <!-- CAROUSEL FIRST SLIDE -->
+      <div class="carousel-item active">
+
+        <!-- RESPONSIVE IMAGE -->
+        <picture class="w-100">
+          <source media="(max-width: 650px)" srcset="images/gallery/carousel/image1-1.jpg">
+          <source media="(min-width: 651px)" srcset="images/gallery/carousel/image1.jpg">
+          <img src="images/gallery/carousel/image1.jpg" alt="">
+        </picture>
+
+        <!-- CAPTION -->
+        <div class="carousel-caption">
+          <h5>Creativity</h5>
+          <p>Everything you can imagine is real.</p>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SECOND SLIDE -->
+      <div class="carousel-item">
+
+        <!-- RESPONSIVE IMAGE -->
+        <picture class="w-100">
+          <source media="(max-width: 650px)" srcset="images/gallery/carousel/image2-1.jpg">
+          <source media="(min-width: 651px)" srcset="images/gallery/carousel/image2.jpg">
+          <img src="images/gallery/carousel/image2.jpg" alt="">
+        </picture>
+
+        <!-- CAPTION -->
+        <div class="carousel-caption">
+          <h5>Beauty</h5>
+          <p>We live in a wonderful world.</p>
+        </div>
+      </div>
+
+      <!-- CAROUSEL THIRD SLIDE -->
+      <div class="carousel-item">
+
+        <!-- RESPONSIVE IMAGE -->
+        <picture class="w-100">
+          <source media="(max-width: 650px)" srcset="images/gallery/carousel/image3-1.jpg">
+          <source media="(min-width: 651px)" srcset="images/gallery/carousel/image3.jpg">
+          <img src="images/gallery/carousel/image3.jpg" alt="">
+        </picture>
+
+        <!-- CAPTION -->
+        <div class="carousel-caption">
+          <h5>Magnificence</h5>
+          <p>Only photograph what you love.</p>
+        </div>
+      </div>
+
+      <!-- CAROUSEL FOURTH SLIDE -->
+      <div class="carousel-item">
+
+        <!-- RESPONSIVE IMAGE -->
+        <picture class="w-100">
+          <source media="(max-width: 650px)" srcset="images/gallery/carousel/image4-1.jpg">
+          <source media="(min-width: 651px)" srcset="images/gallery/carousel/image4.jpg">
+          <img src="images/gallery/carousel/image4.jpg" alt="">
+        </picture>
+
+        <!-- CAPTION -->
+        <div class="carousel-caption">
+          <h5>Artistic</h5>
+          <p>Go where you feel most alive.</p>
+        </div>
+      </div>
+
+      <!-- CAROUSEL FIFTH SLIDE -->
+      <div class="carousel-item">
+
+        <!-- RESPONSIVE IMAGE -->
+        <picture class="w-100">
+          <source media="(max-width: 650px)" srcset="images/gallery/carousel/image5-1.jpg">
+          <source media="(min-width: 651px)" srcset="images/gallery/carousel/image5.jpg">
+          <img src="images/gallery/carousel/image5.jpg" alt="">
+        </picture>
+
+        <!-- CAPTION -->
+        <div class="carousel-caption">
+          <h5>Patience</h5>
+          <p>Stay patient and trust the journey.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAROUSEL CONTROLS -->
+    <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </main>
+
+  <footer>
+    <div class="copyrights">
+      <p><small class="text-muted">Copyright &copy; 2019 MazenElabd</small></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

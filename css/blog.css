@@ -1,0 +1,110 @@
+/*-------------------------------------------------------------------------------------
+Theme Name:
+Theme URI:
+Version:	1.0
+Author:		Mazen Elabd
+1. GENERAL
+2. IMG ON DIFFERENT DEVICES
+-------------------------------------------------------------------------------------*/
+
+/*-------------------------------- 1. GENERAL --------------------------------*/
+p {
+  color: #333333;
+  line-height: 28px;
+  word-spacing: 2.5px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+a h3:hover {
+  color: #595454;
+}
+.date {
+  color: #A9A9A9;
+  font-size: 13px;
+  letter-spacing: normal;
+  line-height: 18px;
+}
+.category:hover {
+  text-decoration: none !important;
+}
+.category:hover small {
+  color: 	#333333 !important;
+  font-weight: 550;
+}
+h6 {
+  color: #141414;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 16px;
+  line-height: 23px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+.btn-hover:hover{
+  background-color: #333333;
+  color: #f5f0f0;
+}
+.writer {
+  width: 75px;
+  height: 75px;
+}
+.author-name {
+  color: #333333;
+  font-size: 18px;
+  line-height: 26px;
+  word-spacing: 2.5px;
+  letter-spacing: 0.6px;
+}
+
+
+/*-------------------------------- 2. IMG ON DIFFERENT DEVICES --------------------------------*/
+@media (min-width: 1px) {
+  img , .mainp {
+    width: 85vw;
+  }
+  img {
+    height: 250px;
+  }
+  .floated {
+    width: 95%;
+    height: 200px;
+    float: none;
+  }
+}
+@media (min-width: 250px) {
+  img , .mainp {
+    width: 85vw;
+  }
+  img {
+    height: 350px;
+  }
+}
+@media (min-width: 576px) {
+  img , .mainp {
+    width: 85vw;
+  }
+  img {
+    height: 400px;
+  }
+  .floated {
+    width: 230px;
+    height: 200px;
+    margin: 5px;
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  img , .mainp {
+    width: 70vw;
+  }
+  img {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  img , .mainp {
+    width: 60vw;
+  }
+  img {
+    height: 450px;
+  }
+}

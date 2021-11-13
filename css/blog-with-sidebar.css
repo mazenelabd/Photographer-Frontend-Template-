@@ -1,0 +1,73 @@
+/*-------------------------------------------------------------------------------------
+Theme Name:
+Theme URI:
+Version:	1.0
+Author:		Mazen Elabd
+1. GENERAL
+2. CATEGORIES
+3. TRENDING POSTS
+4. CONTACT SECTION
+-------------------------------------------------------------------------------------*/
+/*-------------------------------- 1. GENERAL --------------------------------*/
+.border-2 {
+  border-width: 2px !important;
+}
+h4 {
+  font-weight: 600;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 20px;
+  color: #333333;
+  word-spacing: 2.5px;
+  letter-spacing: 0.5px;
+  line-height: 29px;
+}
+h5 {
+  font-weight: 600;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 17px;
+  color: #333333;
+  word-spacing: 1.5px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+/*-------------------------------- 2. CATEGORIES --------------------------------*/
+div .card {
+  border: none !important;
+}
+.card-img-top {
+  height: 65px;
+  max-width: 475px;
+  margin: auto;
+}
+.card-img-overlay {
+  background-color: rgba(51, 51, 51, 0.5);
+  max-width: 475px;
+  margin: auto;
+}
+.card-img-overlay:hover {
+  background-color: rgba(51, 51, 51, 0);
+}
+.card-img-overlay:hover .card-title {
+  color: #292929 !important;
+}
+
+/*-------------------------------- 3. TRENDING POSTS --------------------------------*/
+.trend-img {
+  height: 70px;
+  width: 70px;
+}
+
+/*-------------------------------- 4. CONTACT SECTION --------------------------------*/
+.border-2 .text-secondary i {
+  font-size: 23px;
+}
+.fa-facebook-square:hover {
+  color: #4060A5;
+}
+.fa-google-plus-square:hover {
+  color: #d34836;
+}
+.fa-youtube:hover {
+  color: #c4302b;
+}

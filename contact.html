@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Contact</title>
+
+  <!-- ICON AND TOCH ICON -->
+  <link rel="icon" type="image/ico" href="images/logo/title.svg" />
+  <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png"/>
+
+  <!-- FONTS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" id="bootstrap-css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/contact.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark gray-nav">
+
+      <!-- BRAND-LOGO -->
+      <a class="navbar-brand m-0 mb-n4 p-0" href="home.html"><span class="company-logo">a</span> </a>
+
+      <!-- TOGGLE-BUTTON -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAVBAR-CENTERED-MENU -->
+      <div class="collapse navbar-collapse justify-content-center FullWidth" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Works</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="photos.html">Photos</a>
+              <a class="dropdown-item" href="albums.html">Albums</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Blog</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="blog.html">The Blog</a>
+              <a class="dropdown-item" href="blog-with-sidebar.html">Blog With Sidebar</a>
+              <a class="dropdown-item" href="article1.html">Post Page</a>
+              <a class="dropdown-item" href="category-travelling.html">Category Page</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- NAVBAR-RIGHT-MENU -->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container mt-3">
+
+      <div class="text-center mb-4">
+        <h3>Contact</h3>
+      </div>
+
+      <h5><u>Just Reach Me:</u></h5>
+
+      <!-- SOCIAL MEDIA ICONS -->
+      <ul class="justify-content-center row">
+        <li class="col-6 col-sm-4 col-md-3 col-lg-2"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="col-6 col-sm-4 col-md-3 col-lg-2"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="col-6 col-sm-4 col-md-3 col-lg-2"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li class="col-6 col-sm-4 col-md-3 col-lg-2"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li class="col-6 col-sm-4 col-md-3 col-lg-2"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="container mt-5 mx-auto border-bottom border-dark pb-3">
+      <h5 class="text-left mb-4"><u>Or You Can Leave A Message:</u></h5>
+
+      <!-- CONTACT FORM -->
+      <form action="#" method="post">
+        <div class="form-group text-left">
+          <label for="user_name">Name:</label>
+          <input type="text" class="form-control" id="user_name" required>
+        </div>
+
+        <div class="form-group text-left">
+          <label for="user_email">Email:</label>
+          <input type="email" class="form-control" id="user_email" required>
+        </div>
+
+        <div class="form-group text-left">
+         <label for="message">Message:</label>
+         <textarea class="form-control" rows="3" id="message" required></textarea>
+       </div>
+
+       <div class="text-center">
+         <button type="submit" name="button" class="btn border border-dark btn-hover">Send</button>
+       </div>
+      </form>
+    </div>
+    <hr>
+  </div>
+  </main>
+
+  <footer>
+
+    <!-- CONTACT INFO -->
+    <div class="container clearfix">
+      <ul class="list-unstyled">
+        <!-- PHONE LINK -->
+        <a href="tel:+201069624209"><li class="float-right"><i class="fa fa-phone"></i></li></a>
+        <!-- MAP LINK -->
+        <a href="https://goo.gl/maps/fFx9L2DTb2Q2" target="_blank"><li class="float-left"><i class="fa fa-map-marker"></i></li></a>
+      </ul>
+    </div>
+
+    <div class="copyrights">
+      <p><small class="text-muted">Copyright &copy; 2019 MazenElabd</small></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Blog</title>
+
+  <!-- ICON AND TOCH ICON -->
+  <link rel="icon" type="image/ico" href="images/logo/title.svg" />
+  <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png"/>
+
+  <!-- FONTS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" id="bootstrap-css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/blog.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark gray-nav ">
+
+      <!-- BRAND-LOGO -->
+      <a class="navbar-brand m-0 mb-n4 p-0" href="home.html"><span class="company-logo">a</span> </a>
+
+      <!-- TOGGLE-BUTTON -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAVBAR-CENTERED-MENU -->
+      <div class="collapse navbar-collapse justify-content-center FullWidth" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Works</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="photos.html">Photos</a>
+              <a class="dropdown-item" href="albums.html">Albums</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" href="#" id="navbardrop" data-toggle="dropdown">Blog</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="blog.html">The Blog</a>
+              <a class="dropdown-item" href="blog-with-sidebar.html">Blog With Sidebar</a>
+              <a class="dropdown-item" href="article1.html">Post Page</a>
+              <a class="dropdown-item" href="#">Category Page</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- NAVBAR-RIGHT-MENU -->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="text-center mt-3 mx-auto border-bottom border-dark ">
+      <div>
+        <h3 class="font-weight-bolder my-3"><u class="text-dark">Category</u><span class="text-dark"> | </span> <span class="text-muted">Travelling</span></h3>
+      </div>
+
+      <!-- POST TITLE & DATE -->
+      <div class="mb-3">
+        <a href="article1.html" class="btn mb-n2"><h3>A Day In New York <small class="date d-inline-block">- 6 March, 2019</small></h3></a>
+      </div>
+
+      <!-- ARTICLE IMAGE -->
+      <a href="article1.html"><img class="rounded" src="images/gallery/img27.jpg" alt="architecture black and white building"></a>
+
+      <!-- POST EXCERPT -->
+      <p class="mx-auto pt-3 mainp text-left">Today it was a good day in my favourite city ,New York. I went for a nice trip alone. Oh ,No I was not really alone. I had my amazing friend with me , my camera, We saw those cool high buildings and of course my camera will remeber them better than me because she has a photographic memory, I think. Of course we have also seen those people in a hurry trying to catch up with the city that never sleep. </p>
+
+      <a href="article1.html" class="btn border border-dark mb-3 btn-hover">Read More</a>
+    </div>
+
+    <hr>
+
+    <!-- PAGINATION -->
+    <div>
+      <ul class="pagination justify-content-center">
+       <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+       <li class="page-item active"><a class="page-link" href="#">1</a></li>
+       <li class="page-item"><a class="page-link" href="#">2</a></li>
+       <li class="page-item"><a class="page-link" href="#">3</a></li>
+       <li class="page-item"><a class="page-link" href="#">Next</a></li>
+     </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div class="copyrights text-muted">
+      <p><small class="text-muted">Copyright &copy; 2019 MazenElabd</small></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
